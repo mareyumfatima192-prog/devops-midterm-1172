@@ -7,7 +7,7 @@ function shipping(weightKg) {
   }
 
   if (weightKg <= 1) return 200;
-  if (weightKg <= 5) return 350;
+  if (weightKg < 5) return 350;
   if (weightKg <= 10) return 500;
 
   return 1500;
