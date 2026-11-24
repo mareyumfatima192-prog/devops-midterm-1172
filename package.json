@@ -1,0 +1,13 @@
+{
+  "name": "devops-midterm-23-ntu-cs-1172",
+  "version": "1.0.0",
+  "description": "DevOps mid-evaluation shipping project",
+  "main": "src/shipping.js",
+  "scripts": {
+    "test": "node --test",
+    "lint": "eslint src test"
+  },
+  "devDependencies": {
+    "eslint": "^9.39.5"
+  }
+}
